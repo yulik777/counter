@@ -8,6 +8,7 @@ const Counter = () => {
     setCount(count + 1);
   };
 
+
   return (
   <button onClick={handleClick}>{count}</button>
   );
